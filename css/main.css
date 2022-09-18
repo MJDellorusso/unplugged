@@ -209,6 +209,81 @@ aside .content-wrapper{
 
 }
 
+/*---------------------------- Mobile styles - FAQ -------------------*/
+
+.faq .content-wrapper {
+
+}
+
+.faq h1 {
+
+}
+
+.faq-content {
+
+}
+
+.faq-content h4 {
+
+}
+
+.faq-content p {
+
+}
+
+
+/*---------------------------- Mobile styles - About -------------------*/
+
+.mission .content-wrapper {
+
+}
+
+.mission h1 {
+
+}
+
+.mission-content {
+
+}
+.mission-content p {
+
+}
+
+.map {
+
+}
+
+.map figure {
+
+}
+
+.contact-section {
+
+}
+
+.contact-section .content-wrapper {
+
+}
+
+.contact-section h2 {
+
+}
+
+.contact-content {
+
+}
+
+.contact-content h4 {
+
+}
+
+.contact-content address {
+
+}
+
+.contact-content p {
+  
+}
 /* Footer Styles */
 
 footer .content-wrapper {
