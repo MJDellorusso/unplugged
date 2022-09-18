@@ -87,6 +87,180 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* -------------------------- Base Header - Footer Styles ------------------- */
+
+header,
+footer {
+
+}
+
+/* Header Styles */
+
+header {
+
+}
+
+header .content-wrapper {
+
+}
+
+.header-divider {
+
+}
+
+header nav {
+
+}
+
+header nav ul {
+
+}
+
+header nav ul li {
+
+}
+
+/*---------------------------- Mobile styles - Homepage -------------------*/
+
+.hero-area {
+
+}
+
+.hero-area .content-wrapper {
+
+}
+
+.hero-area h1 {
+
+}
+
+/* Aside styles */
+
+aside .content-wrapper{
+
+}
+
+.form-description{
+
+}
+
+.form-description h3 {
+
+}
+
+.form {
+
+}
+
+.form h3 {
+
+}
+
+/*features styles*/
+
+.features .content-wrapper {
+
+}
+
+.features h2 {
+
+}
+
+.features-items {
+
+}
+
+.features-items article {
+
+}
+
+.features-items p {
+
+}
+
+
+.fontawesome-icon {
+
+}
+
+.features-item-description {
+
+}
+
+/*reviews styles*/
+
+.reviews .content-wrapper {
+
+}
+
+.reviews h2 {
+
+}
+
+.reviews article {
+
+}
+
+.reviews h2 {
+
+}
+
+.reviews p {
+
+}
+
+/* Footer Styles */
+
+footer .content-wrapper {
+
+}
+
+.footer-content {
+
+}
+
+footer .contact {
+
+}
+
+ footer .contact h4 {
+
+ }
+
+footer .contact address {
+
+}
+
+footer .social {
+
+}
+
+footer .social h4 {
+
+}
+
+.social-icons {
+
+}
+
+.social-icons p {
+
+}
+
+.social-icons a {
+
+}
+
+.copyright {
+
+}
+
+.copyright p {
+
+}
+
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
