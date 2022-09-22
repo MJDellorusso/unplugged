@@ -98,21 +98,12 @@ footer {
 
 }
 
-/* Header Styles */
-
-header {
-
-}
 
 header .content-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow:row wrap ;
-
-}
-
-.header-divider {
 
 }
 
@@ -126,38 +117,21 @@ header nav {
 
 header nav ul {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+
+
+}
+
+
+footer .social-icons {
+  display: flex;
+  justify-content: space-around;
   align-items: center;
 
 }
 
-header nav ul li {
 
-}
-
-/* Footer Styles */
-
-footer .content-wrapper {
-
-}
-
-.footer-content {
-
-}
-
-footer .contact {
-
-}
-
- footer .contact h4 {
-
- }
-
-footer .contact address {
-
-}
-
-footer .social p {
+footer .social-icons p {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -165,48 +139,18 @@ footer .social p {
 
 }
 
-footer .social h4 {
 
-}
 
- footer .social-icons {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 
-}
-
-.social-icons p {
-
-}
-
-.social-icons a {
-
-}
-
-.copyright {
-
-}
-
-.copyright p {
-
-}
 
 /*---------------------------- Mobile styles - Homepage -------------------*/
+
+/* Hero Area */
 
 .hero-area {
   display: flex;
   justify-content: center;
-  align-items: center;
-
-}
-
-.hero-area .content-wrapper {
-
-
-}
-
-.hero-area h1 {
+  flex-flow: row wrap;
 
 }
 
