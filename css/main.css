@@ -86,8 +86,14 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+   
+   .content-wrapper {
+    width: 90%;
+    margin: 50px 0;
+    border: yellow 2px dotted;
+  }
 
-/* -------------------------- Base Header - Footer Styles ------------------- */
+  /* -------------------------- Base Header - Footer Styles ------------------- */
 
 header,
 footer {
@@ -99,12 +105,28 @@ footer {
 }
 
 
+
+header {
+  padding: 15px 0;
+  background-color: #000;
+  
+}
+
+
 header .content-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow:row wrap ;
+  margin: 0;
 
+}
+
+.header-divider {
+  border: #b3d4fc 1px dotted;
+  height: 1px;
+  width: 100%;
+  margin: 10px 0 20px 0;
 }
 
 header nav {
@@ -112,13 +134,24 @@ header nav {
   justify-content: space-around;
   align-items: center;
   flex-flow: row wrap;
+  width: 60%;
+  padding: 0 100px 0 100px;
 
 }
 
 header nav ul {
   display: flex;
   justify-content: space-around;
+  width: 100%;
+  list-style-type: none;
+  
 
+
+}
+
+footer {
+  flex-direction: column;
+  background-color: burlywood;
 
 }
 
@@ -127,6 +160,7 @@ footer .social-icons {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  border: #b3d4fc 2px dotted;
 
 }
 
@@ -138,8 +172,31 @@ footer .social-icons p {
 
 
 }
+  
+footer .content-wrapper {
+  width: 55%;
+  margin: 50px 0;
+}
 
 
+
+footer p {
+  margin: 0;
+
+}
+
+
+
+footer .copyright {
+  border: #000 2px dotted;
+  margin: 20px 0;
+
+}
+
+footer .contact {
+  margin-bottom: 50px;
+  border: #000 2px dotted;
+}
 
 
 
@@ -151,8 +208,12 @@ footer .social-icons p {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-
+  background-color: pink;
 }
+
+  
+
+
 
 /* Aside styles */
 
@@ -161,42 +222,54 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: aquamarine;
+
 
 }
 
-aside .content-wrapper{
- 
-}
+
 
 .form-description{
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   flex-flow: row wrap;
 
 }
 
 .form-description h3 {
+  padding: 30px 0 0 0;
+  margin: 0;
 
+}
+
+.form-description p {
+  padding: 0;
+  margin: 0;
+  border: #222 2px dotted;
 }
 
 .form {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
+  flex-flow: wrap;
 
 }
+
+
 
 .form h3 {
-
+  border: yellowgreen 1px dotted;
+ 
 }
-
 /*features styles*/
 
 .features {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: aliceblue;
 }
 
 .features .content-wrapper {
@@ -205,6 +278,8 @@ aside .content-wrapper{
 }
 
 .features h2 {
+  margin-bottom: 60px;
+  border: #000 2px dotted;
 
 }
 
@@ -213,14 +288,19 @@ aside .content-wrapper{
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  border: black 2px dotted;
 
 }
 
-.features-items article {
+.features article {
+  width: 55%;
+  margin: 30px 0;
+  border: #ccc 2px dotted;
 
 }
 
-.features-items p {
+.features p {
+  margin: 0;
 
 }
 
@@ -238,12 +318,14 @@ aside .content-wrapper{
 .reviews {
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-flow: row wrap;
+  background-color: lightsalmon;
 
 }
 
 .reviews h2 {
+  margin: 40px;
+  border: #000 2px dotted;
 
 }
 
@@ -251,7 +333,10 @@ aside .content-wrapper{
 
 }
 
-.reviews h2 {
+.reviews h3 {
+  width: 55%;
+  margin: 20px 0;
+  border: black 2px dotted;
 
 }
 
