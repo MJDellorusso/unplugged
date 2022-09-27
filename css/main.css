@@ -211,11 +211,7 @@ footer .contact {
   background-color: pink;
 }
 
-  
-
-
-
-/* Aside styles */
+  /* Aside styles */
 
 aside {
   display: flex;
@@ -224,46 +220,22 @@ aside {
   flex-flow: row wrap;
   background-color: aquamarine;
 
-
 }
 
-
-
-.form-description{
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  flex-flow: row wrap;
-
-}
-
-.form-description h3 {
-  padding: 30px 0 0 0;
-  margin: 0;
-
-}
-
-.form-description p {
-  padding: 0;
-  margin: 0;
+.form-description {
   border: #222 2px dotted;
 }
 
-.form {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  flex-flow: wrap;
-
-}
-
-
-
-.form h3 {
+aside h3 {
   border: yellowgreen 1px dotted;
  
 }
-/*features styles*/
+
+.form {
+  border: purple 2px dotted;
+}
+
+/* Features */
 
 .features {
   display: flex;
@@ -272,10 +244,7 @@ aside {
   background-color: aliceblue;
 }
 
-.features .content-wrapper {
-  
 
-}
 
 .features h2 {
   margin-bottom: 60px;
@@ -344,6 +313,10 @@ aside {
 
 }
 
+
+
+
+
 /*---------------------------- Mobile styles - About -------------------*/
 
 .mission {
@@ -351,6 +324,7 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: green;
 
 }
 
@@ -366,11 +340,12 @@ aside {
 }
 
 .map {
+  
 
 }
 
 .map figure {
-
+  
 }
 
 .contact-section {
@@ -378,6 +353,7 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #000;
 
 }
 
@@ -402,6 +378,7 @@ aside {
 }
 
 .contact-content p {
+  margin: 0;
 
 }
 
@@ -417,17 +394,21 @@ aside {
 }
 
 .faq .content-wrapper {
+  margin: 50px 0 0 0;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
 }
 
-.faq h1 {
+.faq h2 {
+  margin-bottom: 40px;
 
 }
 
 .faq-content {
+  margin-bottom: 50px;
+  border: #000 2px dotted;
 
 }
 
