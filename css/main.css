@@ -112,7 +112,6 @@ header {
   
 }
 
-
 header .content-wrapper {
   display: flex;
   justify-content: center;
@@ -135,7 +134,7 @@ header nav {
   align-items: center;
   flex-flow: row wrap;
   width: 60%;
-  padding: 0 100px 0 100px;
+  
 
 }
 
@@ -145,16 +144,26 @@ header nav ul {
   width: 100%;
   list-style-type: none;
   
-
-
 }
 
 footer {
   flex-direction: column;
   background-color: burlywood;
-
 }
 
+footer p {
+  margin: 0;
+}
+
+footer .content-wrapper {
+  width: 55%;
+  margin: 50px 0;
+}
+
+footer .contact {
+  margin-bottom: 50px;
+  border: #000 2px dotted;
+}
 
 footer .social-icons {
   display: flex;
@@ -164,41 +173,17 @@ footer .social-icons {
 
 }
 
-
 footer .social-icons p {
   display: flex;
   justify-content: center;
   align-items: center;
-
-
 }
   
-footer .content-wrapper {
-  width: 55%;
-  margin: 50px 0;
-}
-
-
-
-footer p {
-  margin: 0;
-
-}
-
-
-
 footer .copyright {
   border: #000 2px dotted;
   margin: 20px 0;
 
 }
-
-footer .contact {
-  margin-bottom: 50px;
-  border: #000 2px dotted;
-}
-
-
 
 /*---------------------------- Mobile styles - Homepage -------------------*/
 
@@ -219,7 +204,6 @@ aside {
   align-items: center;
   flex-flow: row wrap;
   background-color: aquamarine;
-
 }
 
 .form-description {
@@ -240,7 +224,7 @@ aside h3 {
 .features {
   display: flex;
   justify-content: center;
-  align-items: center;
+  flex-flow: row wrap;
   background-color: aliceblue;
 }
 
@@ -249,6 +233,13 @@ aside h3 {
 .features h2 {
   margin-bottom: 60px;
   border: #000 2px dotted;
+
+}
+
+.features article {
+  width: 55%;
+  margin: 30px 0;
+  border: #ccc 2px dotted;
 
 }
 
@@ -261,12 +252,7 @@ aside h3 {
 
 }
 
-.features article {
-  width: 55%;
-  margin: 30px 0;
-  border: #ccc 2px dotted;
 
-}
 
 .features p {
   margin: 0;
@@ -298,10 +284,6 @@ aside h3 {
 
 }
 
-.reviews article {
-
-}
-
 .reviews h3 {
   width: 55%;
   margin: 20px 0;
@@ -309,13 +291,15 @@ aside h3 {
 
 }
 
-.reviews p {
+.reviews article {
 
 }
 
 
 
+.reviews p {
 
+}
 
 /*---------------------------- Mobile styles - About -------------------*/
 
@@ -382,7 +366,6 @@ aside h3 {
 
 }
 
-
 /*---------------------------- Mobile styles - FAQ -------------------*/
 
 .faq {
@@ -390,7 +373,6 @@ aside h3 {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-
 }
 
 .faq .content-wrapper {
@@ -419,10 +401,6 @@ aside h3 {
 .faq-content p {
 
 }
-
-
-
-
 
 
 /* ==========================================================================
