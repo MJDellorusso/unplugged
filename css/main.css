@@ -486,13 +486,102 @@ aside h3 {
 }
 
 /* ==========================================================================
-   EXAMPLE Media Queries for Responsive Design.
-   These examples override the primary ('mobile first') styles.
-   Modify as content requires.
+   Media Queries for Responsive Design.
+   
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
+@media screen and (min-width: 768px) {
+  /*Tablet styles here*/
+
+  /*General Styles*/
+
+  .content-wrapper {
+    max-width: 640px;
+    margin: 100px 0;
+  }
+
+  /*header*/
+
+  header {
+
+  }
+
+  header .content-wrapper {
+    width: ;
+
+  }
+  
+  header nav {
+      width: ;
+  }
+
+  header nav ul {
+
+  }
+
+  .header-divider {
+    display: none;
+  }
+
+  /* Hero Area */
+
+  /* Aside */
+
+  aside .content-wrapper {
+    margin: 50px 0;
+  }
+
+  aside .content-wrapper .form-description, aside .content-wrapper .form {
+    width: ;
+    margin: 0;
+  }
+
+  /*features*/
+
+  .features article {
+
+  }
+
+  .features .features-item-description {
+    width: ;
+
+  }
+
+  /* Reviews */
+
+  .reviews article {
+
+  }
+
+  .reviews article div {
+
+    width: ;
+  }
+  
+  /* Footer */
+  footer .content-wrapper {
+    width: ;
+    margin: 100px 0;
+  }
+
+  .footer-content {
+
+  }
+
+  footer .contact {
+    margin-bottom: 0;
+  }
+
+  footer .copyright {
+
+    width: ;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+
+
+  /*Desktop styles here*/
 }
 
 @media print,
