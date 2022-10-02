@@ -207,7 +207,7 @@ aside {
 }
 
 .form-description {
-  border: #222 2px dotted;
+ 
 }
 
 aside h3 {
@@ -503,19 +503,23 @@ aside h3 {
   /*header*/
 
   header {
+    width: 100%;
+    justify-content: space-around;
 
   }
 
   header .content-wrapper {
-    width: ;
+    width: 100%;
 
   }
   
   header nav {
-      width: ;
+      width: 20%;
   }
 
   header nav ul {
+    width: 100%;
+    justify-content: space-evenly;
 
   }
 
@@ -529,42 +533,61 @@ aside h3 {
 
   aside .content-wrapper {
     margin: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row;
+    
   }
 
   aside .content-wrapper .form-description, aside .content-wrapper .form {
-    width: ;
+    width: 40%;
     margin: 0;
   }
 
   /*features*/
 
   .features article {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: column;
+    flex-basis: 300px;
+
 
   }
 
   .features .features-item-description {
-    width: ;
+    width: 75%;
+    
 
   }
 
   /* Reviews */
 
   .reviews article {
+    width: 50%;
+    display: flex;
+    justify-content: center;
 
   }
 
   .reviews article div {
 
-    width: ;
+    width: 100%;
   }
   
   /* Footer */
   footer .content-wrapper {
-    width: ;
+    width: 80%;
     margin: 100px 0;
   }
 
   .footer-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 
   }
 
@@ -574,7 +597,7 @@ aside h3 {
 
   footer .copyright {
 
-    width: ;
+    width: 35%;
   }
 }
 
