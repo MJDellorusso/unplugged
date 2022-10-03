@@ -108,7 +108,7 @@ footer {
 
 header {
   padding: 15px 0;
-  background-color: #000;
+  background-color: burlywood;
   
 }
 
@@ -143,6 +143,7 @@ header nav ul {
   justify-content: space-around;
   width: 100%;
   list-style-type: none;
+  
   
 }
 
@@ -337,7 +338,7 @@ aside h3 {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  background-color: #000;
+  background-color: lightblue;
 
 }
 
@@ -503,23 +504,24 @@ aside h3 {
   /*header*/
 
   header {
-    width: 100%;
     justify-content: space-around;
+    padding: 33px 0;
 
   }
 
   header .content-wrapper {
+    justify-content: space-around;
     width: 100%;
 
   }
   
   header nav {
       width: 20%;
+      
   }
 
   header nav ul {
-    width: 100%;
-    justify-content: space-evenly;
+    justify-content: space-between;
 
   }
 
@@ -599,6 +601,56 @@ aside h3 {
 
     width: 35%;
   }
+
+/*======================================================
+                      About Page
+========================================================*/
+
+.mission-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+}
+
+.mission-content p {
+    width: 45%;
+
+}
+
+.contact-section .content-wrapper h2 {
+    width: 50%;
+
+}
+
+.contact-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+/*======================================================
+                      FAQ Page
+========================================================*/
+
+.faq .content-wrapper {
+      justify-content: ;
+
+}
+
+.faq-content {
+      flex-basis: 40%;
+
+}
+
+.faq h2 {
+      width: 100%;
+
+}
+
+
 }
 
 @media screen and (min-width: 1200px) {
