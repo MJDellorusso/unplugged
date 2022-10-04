@@ -636,7 +636,7 @@ aside h3 {
 ========================================================*/
 
 .faq .content-wrapper {
-      justify-content: ;
+      justify-content: space-between;
 
 }
 
